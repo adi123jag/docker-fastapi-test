@@ -1,4 +1,4 @@
-version: '3.8'  # You can omit this version line as it's now deprecated
+
 
 services:
   app:
