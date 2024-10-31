@@ -1,4 +1,4 @@
-version: "3.8"
+version: '3.8'  # You can omit this version line as it's now deprecated
 
 services:
   app:
@@ -6,4 +6,5 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./data:/app/data  # Persist data to ensure it remains after restarts
+      - .:/app  # Optional, for hot-reloading
+
