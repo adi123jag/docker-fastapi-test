@@ -129,6 +129,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-**/*.json      # Ignore all .json files
-!data/users.json   # But include data/users.json
+
 
